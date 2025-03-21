@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.31.6)
+project(testsdl3)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/../bin)
+find_package(SDL3 REQUIRED CONFIG REQUIRED COMPONENTS SDL3-shared)
+add_executable(test src/main.cpp)
+target_link_libraries(test PUBLIC SDL3::SDL3)

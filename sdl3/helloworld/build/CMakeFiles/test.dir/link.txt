@@ -1,0 +1,1 @@
+/usr/sbin/c++ -Wl,--dependency-file=CMakeFiles/test.dir/link.d CMakeFiles/test.dir/src/main.cpp.o -o /home/code/sdl3/helloworld/bin/test  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL3.so.0.2.8
